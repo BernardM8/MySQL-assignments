@@ -1,0 +1,8 @@
+build an HR database 
+
+#1 retrieve the FIRST_NAME, LAST_NAME, EMPLOYEE_ID, and SALARY of employees whose manager's FIRST_NAME is 'Payam'.
+#2 retrieve the FIRST_NAME, LAST_NAME, SALARY, DEPARTMENT_ID, and JOB_ID of employees whose JOB_ID matches the EMPLOYEE_ID 169. 
+#3 retrieve the FIRST_NAME, LAST_NAME, and SALARY of employees whose salary is higher than the salary of an employee with the last name 'Ozer'
+#4 retrieve distinct DEPARTMENT_ID, DEPARTMENT_NAME, MANAGER_ID, and LOCATION_ID from the DEPARTMENTS table
+#5 query three actions using SQL variables and updates. First disables safe updates (SET SQL_SAFE_UPDATES = 0), then delete all employees from the department with the name 'Marketing', and enable safe updates. 
+#6 calculate the average salary of all employees, retrieve the EMPLOYEE_ID, FIRST_NAME, LAST_NAME, and SALARY of employees whose salary is greater than or equal to the previously calculated average salary and whose first name or last name starts with 'J'.
